@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0; /* Fallback color */
+}
+
+#gameArea {
+    width: 1280px;
+    height: 720px;
+    margin: 20px auto;
+    border: 2px solid #333;
+    background-image: url('LIVE\ WALLPAPER.jpg');
+    background-size: cover; /* Scale the image to cover the area */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+}
