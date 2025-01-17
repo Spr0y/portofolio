@@ -1,15 +1,19 @@
 <!DOCTYPE html>
-<a href="https://new-url.com">Visit New Site</a>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Web Game</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Duck Adventure</title>
 </head>
 <body>
-    <h1>Welcome to My Web Game!</h1>
-    <div id="gameArea"></div>
+    <div id="game-container">
+        <img id="background" src="VCD2 BACKGROUND 1 door 1 op.png" alt="Background">
+        <img id="player" src="VCD2 DUCK CHARA front duck.png" alt="Duck" style="width: 50px; height: auto; position: absolute;">
+        <img id="cube" src="rubix_cube.png" alt="Cube" style="display: none; position: absolute;">
+        <audio id="bgMusic" src="Terraria Music - Day.mp3" loop></audio>
+        <audio id="panicMusic" src="Undertale soul warning sound(Flowey fight).mp3" style="display: none;"></audio>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
