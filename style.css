@@ -1,16 +1,18 @@
 body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background-color: #f0f0f0; /* Fallback color */
+    margin: 0;
+    overflow: hidden;
 }
 
-#gameArea {
-    width: 1280px;
-    height: 720px;
-    margin: 20px auto;
-    border: 2px solid #333;
-    background-image: url('LIVE\ WALLPAPER.jpg');
-    background-size: cover; /* Scale the image to cover the area */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Prevent the image from repeating */
+#game-container {
+    width: 1920px; /* 1920 for 1080p */
+    height: 1080px;
+    position: relative;
+}
+
+#background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
